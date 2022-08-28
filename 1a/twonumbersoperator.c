@@ -40,5 +40,6 @@ int main(){
     printf("\n");
      // print the quotient preformatted to show the numbers being divided and the operator user i.e a / b = c
     printf("%d / %d = %f", number1, number2, div);
+    printf("\n");
     return 0;
 }
