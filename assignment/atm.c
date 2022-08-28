@@ -130,21 +130,21 @@ float moneyWithdraw(float balance)
         {
             back = false;
             balance -= withdraw;
-            printf("\n****Your withdrawing money is:  KSH%.2f\n", withdraw);
-            printf("****Your New Balance is:   KSH%.2f\n\n", balance);
+            printf("\n**** Widhdrawn amount is:  KSH%.2f\n", withdraw);
+            printf("**** New Balance is:   KSH%.2f\n\n", balance);
         }
 
         else
         {
 
-            printf("+++You don't have enough money+++\n");
-            printf("Please contact to your Bank Customer Services\n");
+            printf("+++You don't have enough money to widthdraw+++\n");
+            printf("Please contact to your Bank's Customer Service\n");
             printf("****Your Balance is:   KSH%.2f\n\n", balance);
         }
     }
     return balance;
 
-} // money withdraw
+} // money withdrawn
 
 void menuExit()
 {
