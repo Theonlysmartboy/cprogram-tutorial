@@ -39,7 +39,7 @@ int main(){
      //print an empty line. this ensures that the next print begins on a new line
     printf("\n");
      // print the quotient preformatted to show the numbers being divided and the operator user i.e a / b = c
-    printf("%d / %d = %f", number1, number2, div);
+    printf("%d / %d = %.2f", number1, number2, div);
     printf("\n");
     return 0;
 }
