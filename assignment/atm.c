@@ -59,7 +59,7 @@ int main()
         }
 
         printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
-        printf("Would you like to do another transaction:\n");
+        printf("Would you like to peform another transaction:\n");
         printf("< 1 > Yes\n");
         printf("< 2 > No\n");
         scanf("%d", &choose);
@@ -93,7 +93,7 @@ void mainMenu()
 
 void checkBalance(float balance)
 {
-    printf("You Choose to See your Balance\n");
+    printf("Check Balance Option Selected\n");
     printf("\n\n****Your Available Balance is:   KSH%.2f\n\n", balance);
 
 } // Check Balance
@@ -101,7 +101,7 @@ void checkBalance(float balance)
 float moneyDeposit(float balance)
 {
     float deposit;
-    printf("You choose to Deposit a money\n");
+    printf("Deposit Option Selected\n");
     printf("****Your Balance is: KSH%.2f\n\n", balance);
     printf("****Enter your amount to Deposit\n");
     scanf("%f", &deposit);
@@ -118,12 +118,12 @@ float moneyWithdraw(float balance)
     float withdraw;
     bool back = true;
 
-    printf("You choose to Withdraw a money\n");
+    printf("Withdrawal option selected\n");
     printf("***Your Balance is: KSH%.2f\n\n", balance);
 
     while (back)
     {
-        printf("Enter your amount to withdraw:\n");
+        printf("Enter the amount to withdraw:\n");
         scanf("%f", &withdraw);
 
         if (withdraw < balance)
@@ -149,12 +149,12 @@ float moneyWithdraw(float balance)
 void menuExit()
 {
     printf("--------------Remember to take your receipt!!!------------------\n");
-    printf("-----Thank you for using our ATM Banking Machine!!!-----\n");
+    printf("-----Thank you for using ATM Banking Machine!!!-----\n");
 
 } // exit menu
 
 void errorMessage()
 {
     ;
-    printf("+++!!!You selected invalid number!!!+++\n");
+    printf("+++!!!You have selected an  invalid number!!!+++\n");
 } // error message
