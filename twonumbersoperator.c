@@ -4,8 +4,8 @@ int main(){
     int number1, number2, sum, diff, prod;
     // variable to hold the clculated quotient declared as floating point to take care of decimals too. 
     float div; 
-    
-    printf("Please enter the two numbers you want to add, subtract, multiply and divide separate the two numbers by a space: ");
+    //Get the 
+    printf("Please enter the first number you want to add, subtract, multiply and divide: ");
     scanf("%d %d", &number1, &number2);
 
     // calculating sum
