@@ -4,9 +4,15 @@ int main(){
     int number1, number2, sum, diff, prod;
     // variable to hold the clculated quotient declared as floating point to take care of decimals too. 
     float div; 
-    //Get the 
-    printf("Please enter the first number you want to add, subtract, multiply and divide: ");
-    scanf("%d %d", &number1, &number2);
+    //Display first user instruction on the screen 
+    printf("Please enter the first number you want to add, subtract, multiply and divide. Press Enter when done typing the number: ");
+    //get the first number using scanner
+    scanf("%d", &number1);
+
+    //Display second user instruction on the screen 
+    printf("Please enter the second number you want to add, subtract, multiply and divide. Press Enter when done typing the number: ");
+    //get the second number using scanner
+    scanf("%d", &number2);
 
     // calculating sum
     sum = number1 + number2; 
