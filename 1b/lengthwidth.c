@@ -2,6 +2,7 @@
 int main(){
     // variables to hold the two numbers, calculated sum, difference and product
     int length, width, area, perimeter;
+    
     // variable to hold the clculated quotient declared as floating point to take care of decimals too. 
     //Display user instruction on the screen 
     printf("Please enter the length and width of the rectangle separating each by a single space. Press Enter when done typing the number: ");
