@@ -7,12 +7,10 @@ void set_vehicle(char make[60], char model[60], char engine_no[60],float sale_pr
     engine_no = engine_no;
     sale_price = sale_price;
 }
-
 float get_profit( void){
 float profit;
 profit = 0.15 * sale_price;
 return sale_price;
-
 }
 int main(){
     set_vehicle("Subaru", "Forester", "xyz-1", 1005000);
