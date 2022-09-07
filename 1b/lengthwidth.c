@@ -10,7 +10,7 @@ int main(){
     scanf("%d %d", &length, &width);
 
     // calculating the area using the formula, area us Length time width
-    area = length + width; 
+    area = length * width; 
 
      // calculating perimeter using the formula of perimeter is twice the sum of length and width
     perimeter = 2 * (length + width);      
