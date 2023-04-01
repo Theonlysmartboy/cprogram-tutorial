@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
     // variables to hold the two numbers, calculated sum, difference and product
-    int number1, number2, sum, diff, prod;
+    int number1, number2, sum, diff, prod, mod;
     // variable to hold the clculated quotient declared as floating point to take care of decimals too. 
     float div; 
     //Display first user instruction on the screen 
@@ -24,8 +24,9 @@ int main(){
     prod = number1 * number2;
 
      // calculating quotient
-    div = number1 / number2;      
-    
+    div = number1 / number2; 
+
+    mod = number1 % number2;
     // print the sum preformatted to show the numbers being added and the operator user i.e a + b = c
     printf("%d + %d = %d", number1, number2, sum);
     //print an empty line. this ensures that the next print begins on a new line
@@ -40,6 +41,9 @@ int main(){
     printf("\n");
      // print the quotient preformatted to show the numbers being divided and the operator user i.e a / b = c
     printf("%d / %d = %.2f", number1, number2, div);
+    printf("\n");
+    
+    printf("%d / %d = %d", number1, number2, mod);
     printf("\n");
     return 0;
 }
